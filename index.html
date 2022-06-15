@@ -8,6 +8,7 @@
   </head>
 
   <body>
+    <!--이름으로 로그인 하는 부분-->
     <form id="login-form" class="hidden">
       <input
         required
@@ -18,15 +19,27 @@
       <input type="submit" value="Log In" />
     </form>
 
-    <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
 
+    <!--시간표시 부분-->
+    <h2 id="clock">00:00:00</h2>
+
+    <!--todo 리스트 만드는 부분-->
     <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and press Endter" />
+      <div class="todo-form__input">
+        <input type="text" placeholder="Write a To Do and press Enter" />
+      </div>
     </form>
     <ul id="todo-list"></ul>
 
+    <!--명문 구절 나오는 부분-->
     <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+    <!--날시 나오는 부분-->
+    <div id="weather">
       <span></span>
       <span></span>
     </div>
@@ -36,5 +49,6 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
