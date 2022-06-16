@@ -18,6 +18,7 @@
   height: 100vh;
   top: 0px;
   z-index: -5;
+  opacity: 80%;
 }
 
 #greeting {
@@ -41,6 +42,22 @@
 
 #todo-list {
   text-align: center;
+}
+
+#todo-list li {
+  margin-top: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#todo-list button {
+  margin-left: 10px;
+  border-radius: 30%;
+  background-color: transparent;
+  color: whitesmoke;
+  border-style: none;
+  border-
 }
 
 #todo-form input {
@@ -68,4 +85,10 @@
   position: absolute;
   top: 10px;
   left: 5px;
+}
+
+#weather span {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
 }
